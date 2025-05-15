@@ -45,7 +45,16 @@
             color: white;
             transition: 1s;
         }
-
+  .flex-container {
+    display: flex;
+    background: linear-gradient(to right, #6d8a51, #8a6851)
+}
+.flex-child {
+    flex: 1;
+}
+.flex-child:first-child {
+    margin-right: 0px;
+}
 
     </style>
 </head>
@@ -121,6 +130,23 @@
   </div>
 </form>
 </div>
+<br><br>
+<footer>
+    <br>
+<div class="flex-container">
+  <div class="flex-child magenta">
+    <br>
+    <p style="color: #e6cfb7; padding: 15px; font-family: Nunito;" >For any inquiries, please do not feel free to contact us.<br>OB Montessori Center Fairview Campus<br><b>© Pastee INC.</b></p>
+  </div>
+
+
+  <div class="flex-child green">
+
+  </div>
+
+
+</div>
+<br><br>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
